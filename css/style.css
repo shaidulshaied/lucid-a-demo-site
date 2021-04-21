@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif ;
+}
+header{
+    width: 100%;
+    height: auto;
+    background: url(../img/banner.png) center no-repeat;
+    background-size: cover;
+}
+.logo{
+    display: ;
+}
+.logo h3{
+    font-family: 'Source Sans Pro', sans-serif ;
+    color: white;
+}
+.navbar{
+    padding: 20px 0;
+}
+.nav-item{
+
+}
+.nav-link{
+    color: white !important;
+    margin-left: 16px ;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    background: url(../img/divider.png) center bottom no-repeat;
+}
+.banner-text{
+    width: 100%;
+    height: 90vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 90px 0;
+    padding-right: 58px;
+}
+.b-img img{
+    margin-top: 116px;
+}
+.banner-text h6{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 15px;
+    font-weight: bold;
+}
+.banner-text h1{
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+}
+.banner-text p{
+    color: #646466;
+    font-size: 18px;
+    margin-top:  20px; ;
+}
+.banner-btn{
+    margin-top: 35px;
+}
+.banner-btn .first-btn{
+    background-color: #008ed6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.banner-btn .first-btn:hover{
+    background-color: #000000;
+}
+.banner-btn .second-btn{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #4d4d53;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.banner-btn .second-btn:hover{
+    background-color: #000000;
+}
+
+/***************************
+testimonial section css here
+****************************/
+.testimonial{
+    width: 100%;
+}
+.test h6{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 15px;
+    font-weight: bold;
+}
+.test-item{
+    margin-top: 50px;
+}
+.test-item .test-logo{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.test-item h3{
+    margin: 0;
+    margin-top: 15px;
+}
+.test-item p{
+    margin: 0;
+    margin-top: 15px;
+    padding: 5px 36px;
+    color: #999999;
+}
+
+
+
+/***************************
+feature section css here
+****************************/
+.features{
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.feature-1{
+    width: 100%;
+    padding: 50px 0;
+}
+.feature-2{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+.feature-content{
+    padding: 100px 0;
+    /* margin-right: 108px; */
+}
+.feature-content h6{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.feature-content h1{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 36px; 
+}
+/* .line{
+    width: 80px;
+    height: 4px;
+    background-color: #008ed6;
+    margin:25px 0;
+    border-radius: 5px;
+} */
+.feature-content p{
+    color: #646466;
+    font-size: 18px;
+    margin-top:  20px; ;
+}
+.feat-item ul{
+    padding: 0;
+}
+.feat-item ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 4px 0;
+}
+.feat-item ul li i{
+    font-size: 22px;
+    padding: 0 13px;
+    color: #008ed6;
+}
+.testimonial{
+    /* width: 100%; */
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+
+    padding: 100px 0;
+
+}
+.test-text{
+    display: inline-block;
+}
+/***************************
+feature section css here
+****************************/
+.comment{
+    width: 100%;
+    padding: 60px 0;
+    background: url(../img/bg1.png) center no-repeat;
+    background-size: cover;
+}
+.comment-head{
+    width: 100%;
+    text-align: center;
+}
+.comment-head h6{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 15px;
+    font-weight: bold;
+}
+.comment-head h1{
+    color: white;
+    font-weight: 400;
+    font-size: 36px; 
+}
+.comment-content{
+    width: 100%;
+    text-align: left;
+}
+.comment-text{
+    width: 100%;
+    padding: 60px 0;
+}
+.comment-text p{
+    color: white;
+    font-style: italic;
+    margin-right: 140px;
+}
+.user-profile{
+    width: 100%;
+    margin-top: 35px;
+}
+.user-profile h6{
+    color: white;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.user-profile h5{
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+/***************************
+theme section css here
+****************************/
+.theme-down{
+    width:100%;
+    padding:30px 0;
+    background: #15141a;
+}
+.theme-p h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.theme-p span{
+    font-weight: 400;
+}
+.theme-down .container .row{
+    padding: 0 !important;
+}
+.theme-button{
+    margin: 0;
+}
+/***************************
+pricing section css here
+****************************/
+.pricing{
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.p-package{
+    width: 100%;
+}
+.price-head{
+    padding: 50px 0;
+}
+.package-content{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+}
+.package-content h3{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0;
+    padding: 15px 0;
+}
+.p-price{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0px;
+}
+.package-content:hover h3{
+    color: #008ed6;
+}
+.package-content:hover .p-price h1{
+    background: #008ed6;
+}
+.package-content:hover .p-price{
+    background: #008ed6;
+}
+.package-content:hover .p-price h1,.package-content:hover .p-price p{
+    color: white;
+}
+.package-content:hover button{
+    background-color: #008ed6;
+    color: white;
+}
+.p-price h1{
+    font-size: 70px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+}
+.p-price h1::before{
+    position: absolute;
+    content: '$';
+    top: 12px;
+    left: 30%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.p-price p{
+    color: #b8b0b0;
+    font-size: 18px;
+}
+.p-para p{
+    color: #888888;
+    font-size: 18px;
+    margin: 0;
+    padding: 30px 28px;
+}
+.package-content button{
+    color: #008ed6;
+    border: 1px solid #d8d8d8;
+    background: transparent;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 11px 30px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+/***************************
+about section css here
+****************************/
+.contact{
+    width: 100%;
+    padding: 0px 0;
+    text-align: center;
+}
+.contact-text{
+    width: 100%;
+}
+.contact-det{
+    width: 100%;
+    margin-top: 25px;
+}
+.contact-det img{
+    margin-bottom: 20px;
+}
+.contact-det p{
+    font-size: 18px;
+    margin: 0;
+    margin-top: 5px;
+    color: #999999;
+}
+/*************
+form css code here
+*************/
+.contact-form{
+    width: 70%;
+    padding: 35px;
+    margin: auto;
+    background-color: #15141a;
+    margin-top: 35px;
+    position: relative;
+    z-index: 99999 !important;
+}
+.form-right-side{
+    width: 100%;
+    text-align: right;
+}
+.forn-group{
+    padding: 50px;
+}
+.form-control{
+    background-color: transparent !important;
+    padding: 13px 19px !important;
+    margin: 20px 13px;
+    border: 1px solid #444348 !important;
+    font-weight: 600 !important;
+}
+.contact-form button{
+    font-size: 14;
+    padding: 18px 30px;
+    border-radius: 3px;
+    border: none;
+    text-align: right;
+    font-weight: bold;
+    background: #008ed6;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.contact-form button::placeholder{
+    font-weight: bold;
+    color: white !important;
+}
+/*************
+map css code here
+*************/
+.map{
+    z-index: -9999 !important;
+    margin-top: -50px;
+}
+/*************
+social-media css code here
+*************/
+.social-media{
+    width: 100%;
+    padding: 30px 0;
+    background: #131218;
+    text-align: center;
+}
+.social-item{
+
+}
+.social-item p{
+    color: #a7a7a7;
+}
+.social-item ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-item ul li a{
+    text-decoration: none;
+}
+.social-item ul li a i{
+    font-size: 40px;
+    color: #a7a7a7;
+    padding: 0px 20px; 
+}
+.social-item ul li a i:hover{
+    transform: translateX(1.2);
+    color: #a7a7a7;
+}
+
+
+
+
+
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
